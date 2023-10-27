@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clr{
+    clear: both;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 80%;
+    margin: auto;
+  
+}
+.navabar{
+    background-color: gray;
+}
+.lego{
+    float: left;
+    margin-top: 5px;
+}
+.lego img{
+  
+    width:50%;
+}
+.navabar .list{
+   
+    float: right;
+    margin-top: 5px;
+} 
+.list ul{
+    list-style: none;
+}
+.list ul li{
+    float: left;
+    margin-right: 16px;
+}
+.list a{
+    color:white;
+    text-transform: uppercase;
+}
+
+.portfolio{
+    background-color: rgb(255, 126, 126);
+    text-align: center;
+}
+.portfolio h2{
+    text-transform:uppercase;
+}
+.portfolio p{
+    font-style: italic;
+}
+.portfolio-item{
+    float: left;
+    width: 30%;
+    padding-right:30px ;
+}
+.portfolio img{
+    display: block;
+    width: 100%;
+}
+
